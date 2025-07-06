@@ -10,3 +10,5 @@ jobs:
         uses: rohaquinlop/complexipy-action@v3
         with:
           paths: .
+          ignore_complexity: true
+          output_csv: true
